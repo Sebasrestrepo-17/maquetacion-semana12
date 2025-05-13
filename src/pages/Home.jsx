@@ -5,10 +5,10 @@ import Noticias from '../components/Noticias'
 
 const Home = () => {
   return (
-    <>
-      <Bienvenida />
-      <Noticias />
-    </>
+   <section className='contenido-home'>
+    <Bienvenida />
+    <Noticias />
+   </section>
   )
 }
 
